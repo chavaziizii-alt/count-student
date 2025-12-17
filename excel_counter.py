@@ -59,7 +59,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="شمارش تعداد ردیف‌های فایل‌های اکسل در یک پوشه")
     
     # آرگومان مسیر پوشه (اختیاری - اگر وارد نشود پوشه جاری را می‌گردد)
-    parser.add_argument('--path', type=str, default='.', help='مسیر پوشه حاوی فایل‌های اکسل')
+    parser.add_argument('--path', type=str, default='student', help='مسیر پوشه حاوی فایل‌های اکسل')
     
     args = parser.parse_args()
     
